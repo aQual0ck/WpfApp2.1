@@ -1,0 +1,36 @@
+﻿<Window x:Class="WpfApp2._1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2._1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid ShowGridLines="True">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" FontSize="22">Информационные системы и программирование</TextBlock>
+        <TextBlock Grid.Row="1" FontSize="22">
+            Компьютерные сети <LineBreak/>
+            Базы данных <LineBreak/>
+            Операционные системы
+        </TextBlock>
+
+        <TextBlock Grid.Row="1" Grid.Column="1" FontSize="22">
+            Специальность 09.02.07<LineBreak/>
+            Информационные системы и программирование<LineBreak/>
+            Общепрофессиональный цикл<LineBreak/>
+            ОП.11 Компьютерные сети<LineBreak/>
+            Курс 3<LineBreak/>
+            Группа 31/32П
+        </TextBlock>
+    </Grid>
+</Window>
